@@ -2388,6 +2388,7 @@ body._block {
 
   .main__btn {
     margin-right: 0px;
+    margin: 0 auto;
   }
 
   .main__text {
@@ -2418,8 +2419,8 @@ body._block {
 
   .main__picture-left {
     z-index: 2;
-    bottom: auto;
-    left: auto;
+    bottom: unset;
+    left: unset;
     top: 350px;
     right: -180px;
     width: auto;
