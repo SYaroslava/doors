@@ -294,7 +294,7 @@ button {
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  z-index: 2;
+  z-index: 4;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
      -moz-box-pack: justify;
@@ -2375,6 +2375,7 @@ body._block {
   .main__subtitle {
     margin-top: 10px;
     font-size: 14.5px;
+    max-width: 200px;
   }
 
   .main__description {
@@ -2445,6 +2446,7 @@ body._block {
 
   .main__picture-bottom-right {
     bottom: inherit;
+    z-index: 1;
     right: -10px;
     top: 323px;
     max-width: 186px;
