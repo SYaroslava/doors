@@ -168,10 +168,16 @@ button {
 }
 
 .footer {
-  background: url("../img/screen7/picture-bg.png") center/cover no-repeat;
   position: relative;
   z-index: 10;
   margin-top: -100px;
+  background-image: url("../img/screen7/picture-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
 }
 
 .footer__body {
@@ -1037,8 +1043,14 @@ button {
 
 .services {
   margin-top: 50px;
-  background: url("../img/screen3/picture-bg.png") top left/cover no-repeat;
   position: relative;
+  background-repeat: no-repeat;
+  background-position: top left;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  background-image: url("../img/screen3/picture-bg.png");
 }
 
 .services__body {
@@ -2180,6 +2192,15 @@ body._block {
             flex: 0 0 23.7%;
     max-width: 23.7%;
     width: 23.7%;
+    border: 1px solid transparent;
+  }
+
+  .about .slider .pagination-item:hover {
+    border: 1px solid var(--color-orange);
+  }
+
+  .about .slider .pagination-item._active {
+    border: 1px solid var(--color-blue);
   }
 
   .products {
@@ -2953,8 +2974,8 @@ body._block {
   }
 }
 
-.webp .footer { background: url(../img/screen7/picture-bg.webp) center/cover no-repeat; }
+.webp .footer { background-image: url(../img/screen7/picture-bg.webp); }
 
 .webp .main__icon { background: url(../img/screen1/picture-bg.webp) center/cover no-repeat; }
 
-.webp .services { background: url(../img/screen3/picture-bg.webp) top left/cover no-repeat; }
+.webp .services { background-image: url(../img/screen3/picture-bg.webp); }
