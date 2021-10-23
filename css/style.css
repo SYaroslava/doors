@@ -2418,8 +2418,8 @@ body._block {
 
   .main__picture-left {
     z-index: 2;
-    bottom: inherit;
-    left: inherit;
+    bottom: auto;
+    left: auto;
     top: 350px;
     right: -180px;
     width: auto;
