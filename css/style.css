@@ -2326,6 +2326,7 @@ body._block {
         -ms-flex-direction: column;
             flex-direction: column;
     padding-bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.333);
   }
 
   .main__info {
@@ -2420,10 +2421,11 @@ body._block {
   .main__picture-left {
     z-index: 2;
     bottom: unset;
-    left: unset;
+    /* left:unset; */
     top: 350px;
-    right: -180px;
+    left: 60%;
     width: auto;
+    right: -180px;
     height: 267px;
     min-width: auto;
   }
