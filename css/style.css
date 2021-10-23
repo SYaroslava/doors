@@ -2326,7 +2326,6 @@ body._block {
         -ms-flex-direction: column;
             flex-direction: column;
     padding-bottom: 0px;
-    background-color: rgba(0, 0, 0, 0.333);
   }
 
   .main__info {
