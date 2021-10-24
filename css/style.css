@@ -1961,6 +1961,17 @@ body._block {
     font-size: 18px;
   }
 
+  .main__picture-top {
+    position: absolute;
+    top: -0%;
+    left: -25%;
+    width: 100%;
+  }
+
+  .main__picture-top img {
+    width: 100%;
+  }
+
   .main__picture-left {
     position: absolute;
     bottom: -30px;
